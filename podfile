@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+workspace 'InstagramGlitterLabs'
+xcodeproj 'InstagramGlitterLabs.xcodeproj'
+
+
+target 'InstagramGlitterLabs' do
+xcodeproj 'InstagramGlitterLabs.xcodeproj'
+pod 'SDWebImage'
+end

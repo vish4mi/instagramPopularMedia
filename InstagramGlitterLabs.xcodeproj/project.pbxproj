@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CB092EE83E616270D47443F /* libPods-InstagramGlitterLabs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59861F7982194C46A262C6B7 /* libPods-InstagramGlitterLabs.a */; };
 		A925D0401C1DA6D000D37622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D03F1C1DA6D000D37622 /* main.m */; };
 		A925D0431C1DA6D000D37622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D0421C1DA6D000D37622 /* AppDelegate.m */; };
 		A925D0461C1DA6D000D37622 /* InstagramGlitterLabs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A925D0441C1DA6D000D37622 /* InstagramGlitterLabs.xcdatamodeld */; };
@@ -15,6 +16,10 @@
 		A925D04E1C1DA6D000D37622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A925D04D1C1DA6D000D37622 /* Images.xcassets */; };
 		A925D0511C1DA6D000D37622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A925D04F1C1DA6D000D37622 /* LaunchScreen.xib */; };
 		A925D05D1C1DA6D000D37622 /* InstagramGlitterLabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D05C1C1DA6D000D37622 /* InstagramGlitterLabsTests.m */; };
+		A925D0681C1DACC100D37622 /* InstagramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D0671C1DACC100D37622 /* InstagramTableViewCell.m */; };
+		A925D06B1C1DACEE00D37622 /* InstagramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D06A1C1DACEE00D37622 /* InstagramTableViewController.m */; };
+		A925D06E1C1DAD2E00D37622 /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A925D06D1C1DAD2E00D37622 /* InstagramViewController.m */; };
+		A925D08C1C1EF67200D37622 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = A925D08B1C1EF67200D37622 /* instagram.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09D9FF3473625E924E268FB3 /* Pods-InstagramGlitterLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramGlitterLabs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramGlitterLabs/Pods-InstagramGlitterLabs.debug.xcconfig"; sourceTree = "<group>"; };
+		59861F7982194C46A262C6B7 /* libPods-InstagramGlitterLabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstagramGlitterLabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A925D03A1C1DA6D000D37622 /* InstagramGlitterLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramGlitterLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A925D03E1C1DA6D000D37622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A925D03F1C1DA6D000D37622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +49,14 @@
 		A925D0561C1DA6D000D37622 /* InstagramGlitterLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramGlitterLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A925D05B1C1DA6D000D37622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A925D05C1C1DA6D000D37622 /* InstagramGlitterLabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramGlitterLabsTests.m; sourceTree = "<group>"; };
+		A925D0661C1DACC100D37622 /* InstagramTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramTableViewCell.h; sourceTree = "<group>"; };
+		A925D0671C1DACC100D37622 /* InstagramTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramTableViewCell.m; sourceTree = "<group>"; };
+		A925D0691C1DACED00D37622 /* InstagramTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramTableViewController.h; sourceTree = "<group>"; };
+		A925D06A1C1DACEE00D37622 /* InstagramTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramTableViewController.m; sourceTree = "<group>"; };
+		A925D06C1C1DAD2E00D37622 /* InstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramViewController.h; sourceTree = "<group>"; };
+		A925D06D1C1DAD2E00D37622 /* InstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
+		A925D08B1C1EF67200D37622 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		C94867A077F8FCBE04CA49F5 /* Pods-InstagramGlitterLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramGlitterLabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramGlitterLabs/Pods-InstagramGlitterLabs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB092EE83E616270D47443F /* libPods-InstagramGlitterLabs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B32277BF8D344A906CCAA92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D9FF3473625E924E268FB3 /* Pods-InstagramGlitterLabs.debug.xcconfig */,
+				C94867A077F8FCBE04CA49F5 /* Pods-InstagramGlitterLabs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79C0EC39809F23F56E0435FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59861F7982194C46A262C6B7 /* libPods-InstagramGlitterLabs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A925D0311C1DA6D000D37622 = {
 			isa = PBXGroup;
 			children = (
 				A925D03C1C1DA6D000D37622 /* InstagramGlitterLabs */,
 				A925D0591C1DA6D000D37622 /* InstagramGlitterLabsTests */,
 				A925D03B1C1DA6D000D37622 /* Products */,
+				3B32277BF8D344A906CCAA92 /* Pods */,
+				79C0EC39809F23F56E0435FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +127,12 @@
 				A925D04F1C1DA6D000D37622 /* LaunchScreen.xib */,
 				A925D0441C1DA6D000D37622 /* InstagramGlitterLabs.xcdatamodeld */,
 				A925D03D1C1DA6D000D37622 /* Supporting Files */,
+				A925D0661C1DACC100D37622 /* InstagramTableViewCell.h */,
+				A925D0671C1DACC100D37622 /* InstagramTableViewCell.m */,
+				A925D0691C1DACED00D37622 /* InstagramTableViewController.h */,
+				A925D06A1C1DACEE00D37622 /* InstagramTableViewController.m */,
+				A925D06C1C1DAD2E00D37622 /* InstagramViewController.h */,
+				A925D06D1C1DAD2E00D37622 /* InstagramViewController.m */,
 			);
 			path = InstagramGlitterLabs;
 			sourceTree = "<group>";
@@ -99,6 +140,7 @@
 		A925D03D1C1DA6D000D37622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A925D08B1C1EF67200D37622 /* instagram.png */,
 				A925D03E1C1DA6D000D37622 /* Info.plist */,
 				A925D03F1C1DA6D000D37622 /* main.m */,
 			);
@@ -129,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A925D0601C1DA6D000D37622 /* Build configuration list for PBXNativeTarget "InstagramGlitterLabs" */;
 			buildPhases = (
+				CF395947F06AC09F5F3E5864 /* Check Pods Manifest.lock */,
 				A925D0361C1DA6D000D37622 /* Sources */,
 				A925D0371C1DA6D000D37622 /* Frameworks */,
 				A925D0381C1DA6D000D37622 /* Resources */,
+				225E860D03AC1E873FD23BA2 /* Embed Pods Frameworks */,
+				3397E5877A0167A82C5139FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +249,7 @@
 			files = (
 				A925D04C1C1DA6D000D37622 /* Main.storyboard in Resources */,
 				A925D0511C1DA6D000D37622 /* LaunchScreen.xib in Resources */,
+				A925D08C1C1EF67200D37622 /* instagram.png in Resources */,
 				A925D04E1C1DA6D000D37622 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +263,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		225E860D03AC1E873FD23BA2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramGlitterLabs/Pods-InstagramGlitterLabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3397E5877A0167A82C5139FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstagramGlitterLabs/Pods-InstagramGlitterLabs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF395947F06AC09F5F3E5864 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A925D0361C1DA6D000D37622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,7 +318,10 @@
 			files = (
 				A925D0431C1DA6D000D37622 /* AppDelegate.m in Sources */,
 				A925D0401C1DA6D000D37622 /* main.m in Sources */,
+				A925D0681C1DACC100D37622 /* InstagramTableViewCell.m in Sources */,
 				A925D0491C1DA6D000D37622 /* ViewController.m in Sources */,
+				A925D06B1C1DACEE00D37622 /* InstagramTableViewController.m in Sources */,
+				A925D06E1C1DAD2E00D37622 /* InstagramViewController.m in Sources */,
 				A925D0461C1DA6D000D37622 /* InstagramGlitterLabs.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +446,7 @@
 		};
 		A925D0611C1DA6D000D37622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D9FF3473625E924E268FB3 /* Pods-InstagramGlitterLabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstagramGlitterLabs/Info.plist;
@@ -359,6 +457,7 @@
 		};
 		A925D0621C1DA6D000D37622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94867A077F8FCBE04CA49F5 /* Pods-InstagramGlitterLabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstagramGlitterLabs/Info.plist;
@@ -420,6 +519,7 @@
 				A925D0621C1DA6D000D37622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A925D0631C1DA6D000D37622 /* Build configuration list for PBXNativeTarget "InstagramGlitterLabsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +528,7 @@
 				A925D0651C1DA6D000D37622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
